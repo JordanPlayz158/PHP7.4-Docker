@@ -1,4 +1,4 @@
-FROM jordanplayz158/php7.4-gd:exif
+FROM jordanplayz158/php7.4:exif
 
 RUN apt-get update && apt-get -y install \
         libfreetype6-dev \
